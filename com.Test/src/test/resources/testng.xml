@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="20" name="Suite" parallel="none">
+  
+  <test name="FireFox Test">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.Test.Test2"/>
+      <class name="com.Test.Test3"/>
+    </classes>
+  </test> 
+  
+  
+  
+   <!-- Test -->
+</suite> <!-- Suite -->
